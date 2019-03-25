@@ -18,7 +18,7 @@ $('.circles').append(`<li></li>
 function hamburger() {
 $('.hamburger').click(event => {
  event.preventDefault();
- $('.mobileNav').removeClass('hidden');
+ $('.mobileNav').toggleClass('hidden');
 });
 
 }
