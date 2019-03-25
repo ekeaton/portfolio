@@ -74,7 +74,7 @@
   }
   
   #nav .desktopNav li a {
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
     color: #828282;
@@ -93,15 +93,18 @@
   } 
   
     #nav .mobileNav li {
-    color: #b76e79;
     padding: 14px 16px;
-    text-decoration: none;
     font-size: 17px;
   } 
   
   #nav .mobileNav li a {
-    text-transform: capitalize;
+    color: #0000FF;
+    text-transform: uppercase;
     text-decoration: none;
+  }
+
+  .mobileNav .links a:hover {
+    text-decoration: underline;
   }
   
   header h2 {
