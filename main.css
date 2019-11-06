@@ -306,6 +306,11 @@
     #contact #github-logo {
       padding: 0 10px 0 10px;
     }
+
+    #glitch-logo {
+     width: 40px;
+     padding-right: 5px;
+    }
   
     #contact #envelope {
     padding: 0 0 0 50px;
